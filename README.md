@@ -6,6 +6,11 @@ Google Sheets API
 ## Dependencies
 You should be running PHP 8.0+, the latest version of composer and available to use command line on your machine for any commands listed below. How you run PHP is up to you!
 
+## Phar file
+
+Delivered as a phar file, phar file name is `productsup-main.phar` located in root of the folder
+
+
 ## Local setup
 
 **1. Run composer install:**
@@ -28,5 +33,5 @@ Sample output from consle: https://docs.google.com/spreadsheets/d/1gXmGtX3FXTOZ7
 
 **Run tests:**
 
-Run `php ./vendor/bin/phpunit`
+Run `./vendor/bin/phpunit`
 
