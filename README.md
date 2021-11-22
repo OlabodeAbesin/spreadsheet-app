@@ -8,7 +8,7 @@ You should be running PHP 8.0+, the latest version of composer and available to 
 
 ## Phar file
 
-Delivered as a phar file, phar file name is `spreadsheet-main.phar` located in root of the folder
+Delivered as a phar file, phar file name is `spreadsheet.phar` located in root of the folder
 
 
 ## Local setup
