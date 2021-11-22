@@ -25,8 +25,11 @@ To run the app, use:
 ```bash
 php bin/console process-sheet
 ```
+If you have a remote file, pass it like this
 
-
+```bash
+php bin/console process-sheet -f file_url
+```
 The Google authentication keys are in `configs\google_api_service_account\credentials.json` file. They are configurable/can be switched.
 Sample output from consle: https://docs.google.com/spreadsheets/d/1gXmGtX3FXTOZ7JW5icbpfivs2XfiAqI6d_z5n2ZVFlw/edit#gid=0
 ## Testing
